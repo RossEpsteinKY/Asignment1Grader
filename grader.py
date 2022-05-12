@@ -1,5 +1,6 @@
 # Python 3
-import math
+#command to run is python3 grader.py
+
 global grade
 def main():
     grade = input("Enter grade for the class: ")
