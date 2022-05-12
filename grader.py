@@ -11,6 +11,8 @@ def test_if_int(grade):
         # print('it is an int')
         find_grade(value)
     except ValueError:
+        print("You must enter a value between 0 and 100 for this to work")
+        main()
         pass
 
 
