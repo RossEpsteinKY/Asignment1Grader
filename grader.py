@@ -16,12 +16,9 @@ def test_if_int(grade):
         main()
         pass
 
-
-
 def print_grade(grade_result):
     print("Your letter grade is " + grade_result)
     main()
-
 
 def find_grade(grade):
     if grade <= 59:
@@ -43,8 +40,4 @@ def find_grade(grade):
         print("You have entered a grade higher than possible.")
         main()
 main()
-
-
-# find_grade(grade)
-
 
