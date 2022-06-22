@@ -2,6 +2,8 @@
 #command to run is python3 grader.py
 
 global grade
+
+
 def main():
     name = input("What is the student's name?  : >")
     className = input("What is the class name?  : >")
