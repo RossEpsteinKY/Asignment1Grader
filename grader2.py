@@ -44,6 +44,9 @@ class find_grade:
 
 
         grade = self.grade
+        if grade < 0:
+            print("You have entered a grade lower than possible.")
+            Main()
         if grade <= 59:
             self.grade_result = "F"
             print_grade(self.name,self.className,self.grade, self.grade_result)
